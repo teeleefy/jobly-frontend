@@ -1,0 +1,9 @@
+.btn {
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.form {
+    display: inline-block;
+    width: 35vw;
+}

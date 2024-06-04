@@ -1,0 +1,15 @@
+.Company-card {
+    margin: 1rem;
+    width: 50vw;
+}
+
+.Company-name {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.Company-name:hover {
+    color: blue;
+}

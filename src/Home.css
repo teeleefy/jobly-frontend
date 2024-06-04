@@ -1,0 +1,18 @@
+.Home-btn {
+    color: white;
+    text-decoration: none;
+}
+
+.Home-title{
+    margin-bottom: 1rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px grey;
+}
+
+.Home-text {
+    font-size: 1.5rem; 
+}
+
+.Home-btns{
+    text-align: center;
+}

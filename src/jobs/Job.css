@@ -1,0 +1,32 @@
+.Job-card {
+    margin: 1rem;
+    
+}
+
+.Job-name {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.Job-company {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.Job-btn {
+    float: right;
+    margin: 0;
+    position: absolute;
+    left: 80%;
+    transform: translateY(-300%);
+}
+
+.Job-apply{
+    background-color: rgb(243, 165, 22) !important;
+    border-color: rgb(243, 165, 22) !important;
+}
+
+/* .Job-applied{
+    background-color: ;
+} */
+
