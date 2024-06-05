@@ -25,8 +25,6 @@ function CompanyJobs(){
     if(company){
     return(
     <>
-    
-        <Search/> 
         <section className="col-md-12">
                 <ListGroup>
                     <div className="CompanyJobs-company"><Company company={company} key={company.handle}/></div>
