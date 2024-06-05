@@ -8,7 +8,7 @@ body {
   padding: 0;
   height: 100vh;
   overflow: scroll;
-  background: url(/Users/tammy/code/school/react/jobly/frontend/src/assets/patrick-tomasso-5hvn-2WW6rY-unsplash.jpg) no-repeat;
+  background: url(/Users/tammy/code/school/react/jobly/frontend/public/patrick-tomasso-5hvn-2WW6rY-unsplash.jpg) no-repeat;
   background-size: cover;
 }
 
