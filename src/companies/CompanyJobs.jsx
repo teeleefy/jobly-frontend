@@ -6,6 +6,7 @@ import {ListGroup} from "reactstrap";
 import JoblyApi from "../Api.js";
 import Company from "./Company";
 import "./CompanyJobs.css";
+import Loading from "../navigation/Loading";
 
 function CompanyJobs(){
     let { handle } = useParams();
@@ -21,8 +22,9 @@ function CompanyJobs(){
         }
         getCompany();
       }, [handle]);
-    // let companyJobs = jobs.filter(job => job.companyHandle === name);
-    if(company){
+    
+    if(!company) return <Loading />;
+    
     return(
     <>
         <section className="col-md-12">
@@ -32,8 +34,7 @@ function CompanyJobs(){
                 </ListGroup>
         </section>
     </>
-     )}
-     else{return (<h1>Loading...</h1>)}
+     )
 }
 
 export default CompanyJobs;
